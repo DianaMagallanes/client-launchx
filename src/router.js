@@ -20,6 +20,11 @@ const routes =  [
     alias: "/missioncommander",
     name: "missioncommander",
     component: () => import("./components/missionCommanderList")
+  },
+  {
+    path: "/missioncommander/:id",
+    name: "missioncommander-details",
+    component: () => import("./components/missionCommander")
   }
 ];
 const router = createRouter({
