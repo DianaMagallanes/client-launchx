@@ -30,6 +30,21 @@ const routes =  [
     path: "/addmc",
     name: "add-missioncommander",
     component: () => import("./components/AddMissionCommander")
+  },
+  {
+    alias: "/missions",
+    name: "missions",
+    component: () => import("./components/missionsList")
+  },
+  {
+    path: "/missions/:id",
+    name: "missions-details",
+    component: () => import("./components/missions")
+  },
+  {
+    path: "/addmission",
+    name: "add-mission",
+    component: () => import("./components/AddMissions")
   }
 ];
 const router = createRouter({

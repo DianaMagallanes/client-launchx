@@ -15,6 +15,12 @@
         <li class="nav-item">
           <router-link to="/addmc" class="nav-link">Agregar Mission Commander</router-link>
         </li>
+        <li class="nav-item">
+          <router-link to="/missions" class="nav-link">Missions</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link to="/addmission" class="nav-link">Agregar Mission</router-link>
+        </li>
       </div>
     </nav>
     <div class="container mt-3">
